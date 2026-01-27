@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { cvData } from "@/data/cv-data";
-import { MapPin, Mail, Phone, ArrowDown, Linkedin, Download, Github } from "lucide-react";
+import { MapPin, Mail, Phone, Linkedin, Download, Github } from "lucide-react";
 
 export default function HeroSection() {
     return (

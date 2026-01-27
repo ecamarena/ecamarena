@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { cvData } from "@/data/cv-data";
-import { Briefcase } from "lucide-react";
 
 export default function ExperienceTimeline() {
     return (

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { cvData } from "@/data/cv-data";
 
 export default function TechStack() {
     return (
