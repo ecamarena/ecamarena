@@ -5,41 +5,60 @@ export const cvData = {
     location: "Lima, Perú",
     linkedin: "https://www.linkedin.com/in/edgar-camarena-03203b139/",
     github: "https://github.com/ecamarena",
-    role: "Analista Programador Sr.",
+    portfolio: "https://ecamarena.vercel.app/",
+    role: "Fullstack Developer Senior",
     yearsOfExperience: "7+",
-    summary: "Licenciado en Ingeniería de Sistemas con más de 7 años de experiencia en desarrollo de software para diversos sectores. Especializado en el uso de múltiples lenguajes de programación y metodologías ágiles para crear soluciones eficientes y escalables.",
-    objective: "Aplicar mis conocimientos en tecnología para desarrollar soluciones innovadoras que optimicen procesos y mejoren la toma de decisiones dentro de la empresa. Busco contribuir al crecimiento del equipo y los proyectos a través de un enfoque estratégico y colaborativo.",
+    summary: "Fullstack Developer Senior con más de 7 años de experiencia desarrollando plataformas web en sectores bancarios y corporativos. Experiencia sólida en frontend con React, Angular y TypeScript, y backend con .NET Core/.NET 8, microservicios y APIs REST. Acostumbrado a entornos ágiles, CI/CD y proyectos de alta criticidad, con mentalidad de aprendizaje continuo y adaptación a nuevas tecnologías.",
 
     skills: {
-        technologies: [
-            "C#", ".NET Core", "React", "Next Js", "TypeScript", "JavaScript",
-            "Node Js", "Angular", "Python", "Django", "Java", "Spring Boot",
-            "Microservicios", "API Rest", "SQL Server", "Oracle", "PostgreSQL",
-            "Azure DevOps", "AWS", "Jenkins", "Git", "GitHub", "MQ IBM",
-            "Windows Services", "Power BI", "Crystal Report", "Docker", "Jest",
-            "Tailwind CSS", "Bootstrap", "jQuery", "Swagger", "Postman", "IIS"
+        frontend: [
+            "React", "Angular", "TypeScript", "Next Js",
+            "JavaScript", "HTML5", "CSS3"
         ],
-        databases: ["Oracle", "PostgreSQL", "MySQL", "Hana DB", "MSSQL Server", "DynamoDB"],
-        softSkills: ["Comunicación efectiva", "Pensamiento crítico", "Aprendizaje continuo", "Empatía", "Trabajo en equipo", "Ética Profesional", "Gestión del tiempo"]
+        backend: [
+            "C#", ".NET Core", ".NET 8",
+            "Node.js (JavaScript / TypeScript)",
+            "Java (Spring Boot)",
+            "Python (Django)",
+            "APIs REST", "Microservicios",
+            "Colas con IBM MQ",
+            "Windows Services(Legacy)"
+        ],
+        devOpsAndTools: [
+            "Git", "GitHub", "GitLab",
+            "Jenkins", "Azure DevOps", "AWS",
+            "Swagger", "Postman"
+        ],
+        databases: [
+            "SQL Server", "Oracle", "PostgreSQL",
+            "MySQL", "DynamoDB", "SAP HANA"
+        ],
+        testing: [
+            "Jest (Unit Testing)",
+            "Code Coverage"
+        ],
+        softSkills: [
+            "Comunicación efectiva",
+            "Trabajo en equipo",
+            "Pensamiento crítico",
+            "Aprendizaje continuo"
+        ]
     },
 
     experience: [
         {
-            company: "WHITELION",
-            role: "ANALISTA PROGRAMADOR SR.",
-            period: "OCTUBRE 2025 – ACTUALIDAD",
+            company: "WHITELION TECHNOLOGY",
+            role: "FULLSTACK DEVELOPER SR.",
+            period: "OCTUBRE 2025 – ENERO 2026",
             projects: [
                 {
                     name: "2PERSONNEL",
                     description: "Plataforma de gestión de Recursos Humanos que centraliza la administración de empleados, asistencias, vacaciones y nómina.",
                     tasks: [
-                        "Desarrollo frontend con React.js 18.",
-                        "Construcción de servicios backend con .NET Core 8.",
-                        "Diseño y consumo de APIs REST.",
-                        "Manejo de base de datos SQL Server.",
-                        "Control de versiones con GIT.",
-                        "Gestión de tareas con Jira bajo metodologías ágiles.",
-                        "Mantenimiento de aplicaciones legacy en PHP (Laravel y CodeIgniter)."
+                        "Implementé módulos frontend en React 18 para una plataforma de gestión de RRHH (asistencias, vacaciones y nómina).",
+                        "Desarrollé servicios backend en .NET Core 8, exponiendo APIs REST escalables para procesos internos.",
+                        "Integré persistencia y consultas optimizadas en SQL Server.",
+                        "Uso de Jira para la gestión de tareas, seguimiento de incidencias y trabajo bajo metodologías ágiles."
                     ]
                 }
             ]
@@ -47,28 +66,27 @@ export const cvData = {
         {
             company: "CANVIA - SCOTIABANK",
             role: "ANALISTA PROGRAMADOR SR.",
-            period: "ABRIL 2025 – OCTUBRE 2025",
+            period: "ABRIL 2025 – NOVIEMBRE 2025",
             projects: [
                 {
                     name: "BOLSANET",
-                    description: "Plataforma bancaria para gestión y consulta de operaciones financieras.",
+                    description: "Plataforma bancaria orientada a la gestión y consulta de operaciones financieras y bursátiles.",
                     tasks: [
-                        "Frontend con React 18, TypeScript y React Hooks.",
-                        "Arquitectura de Microfrontends.",
-                        "Pruebas unitarias con Jest (Code Coverage).",
-                        "CI/CD con Jenkins y Git.",
-                        "Metodologías ágiles."
+                        "Desarrollé componentes frontend en React 18 + TypeScript bajo arquitectura de Microfrontends, utilizando React Hooks.",
+                        "Implementé pruebas unitarias automatizadas con Jest, asegurando calidad mediante análisis de Code Coverage.",
+                        "Automaticé despliegues e integración continua mediante pipelines CI/CD en Jenkins."
                     ]
                 },
                 {
                     name: "LBTR",
-                    description: "Sistema de transferencias bancarias inmediatas de alto valor.",
+                    description: "Sistema que permite transferencias bancarias de alto valor, procesadas de forma inmediata, individual e irrevocable entre entidades financieras.",
                     tasks: [
-                        "React 18 con TS y Hooks (Microfrontends).",
-                        "Backend en .NET 8 (Arquitectura Hexagonal) y Java 17 / Spring Boot 3.5.",
-                        "Integración con colas MQ de IBM.",
-                        "BD SQL Server.",
-                        "CI/CD con Jenkins y Git."
+                        "Desarrollé componentes frontend en React 18 + TypeScript bajo arquitectura de Microfrontends, utilizando React Hooks.",
+                        "Implementé pruebas unitarias con Jest para validación de flujos críticos de transferencia.",
+                        "Desarrollé servicios backend en .NET 8 bajo arquitectura hexagonal, para transferencias bancarias de alto valor en tiempo real.",
+                        "Implementé integraciones adicionales con Java 17 + Spring Boot, conectando sistemas financieros críticos.",
+                        "Integré mensajería asincrónica mediante IBM MQ, asegurando comunicación confiable entre entidades bancarias.",
+                        "Apliqué automatización de despliegues con Jenkins CI/CD para entregas continuas."
                     ]
                 }
             ]
@@ -76,27 +94,26 @@ export const cvData = {
         {
             company: "CANVIA – FONDO MIVIVIENDA",
             role: "ANALISTA PROGRAMADOR SR.",
-            period: "JULIO 2024 – ABRIL 2025",
+            period: "JUNIO 2024 – ABRIL 2025",
             projects: [
                 {
                     name: "RENAVI",
-                    description: "Portal de información de productos y simulación de créditos.",
+                    description: "Portal de Fondo MiVivienda para la información sobre los productos, simulación de créditos, precalificaciones, etc.",
                     tasks: [
-                        "Análisis, diseño y construcción integral.",
-                        "Frontend nativo: HTML, CSS y JavaScript.",
-                        "Backend en .NET Core con base de datos Oracle.",
-                        "Documentación técnica y soporte.",
-                        "Estimación de tiempos y cronogramas."
+                        "Lideré el levantamiento de requerimientos y desarrollo end-to-end del portal RENAVI para simulación y precalificación de créditos.",
+                        "Implementé backend en .NET Core con base de datos Oracle, asegurando integridad y rendimiento.",
+                        "Desarrollé frontend en HTML, CSS y JavaScript, optimizando experiencia de usuario.",
+                        "Elaboré documentación técnica y brindé soporte en producción."
                     ]
                 },
                 {
                     name: "NSCC",
                     description: "Sistema para gestión de créditos.",
                     tasks: [
-                        "Análisis y construcción de requerimientos.",
-                        "Mantenimiento en .NET Cliente-Servidor.",
-                        "Base de datos Oracle.",
-                        "Pruebas funcionales y documentación técnica."
+                        "Implementé mejoras y mantenimiento evolutivo en una aplicación cliente-servidor desarrollada en .NET.",
+                        "Gestioné persistencia y optimización de consultas en Oracle Database.",
+                        "Realicé pruebas funcionales y soporte en producción asegurando continuidad operativa.",
+                        "Elaboré documentación técnica para el equipo de mantenimiento."
                     ]
                 }
             ]
@@ -104,58 +121,55 @@ export const cvData = {
         {
             company: "GRUPO TAWA",
             role: "ANALISTA PROGRAMADOR SR.",
-            period: "JUNIO 2021 – JUNIO 2024",
+            period: "JUNIO 2021 – JULIO 2024",
             projects: [
                 {
                     name: "ALLOCATION",
-                    description: "Gestión de horarios y permisos para clientes como Puma, Saga Falabella y Ripley.",
+                    description: "Sistema para gestionar los horarios, permisos, licencias, etc. del personal.",
                     tasks: [
-                        "Backend en Node JS (VS Code) con MS SQL SERVER.",
-                        "Frontend con React y Next Js.",
-                        "Pruebas funcionales y documentación técnica.",
-                        "Manejo de Git."
+                        "Desarrollé servicios backend en Node.js (JavaScript/TypeScript) conectados a SQL Server.",
+                        "Implementé módulos frontend con React y Next.js para gestión de horarios, permisos y licencias.",
+                        "Trabajé directamente con clientes corporativos como Puma, Ripley y Saga Falabella, asegurando entregas alineadas al negocio.",
+                        "Brindé soporte y mantenimiento evolutivo en entornos productivos."
                     ]
                 },
                 {
-                    name: "SAMSUNG DIGITAL / E-COMMERCE",
-                    description: "Gestión de ventas online integrando plataforma VTEX.",
+                    name: "SAMSUNG DIGITAL",
+                    description: "Sistema para gestionar las ventas E-COMMERCE de Samsung.",
                     tasks: [
-                        "Arquitectura .NET MVC y N Capas.",
-                        "API con .NET CORE (VS 2019).",
-                        "Integración con VTEX API.",
-                        "Windows Services para integración de pedidos.",
-                        "FrontEnd: HTML, CSS, JavaScript, jQuery y Bootstrap.",
-                        "Manejo de Azure DevOps."
+                        "Desarrollé un sistema web empresarial en .NET MVC bajo arquitectura en N Capas.",
+                        "Implementé APIs en .NET Core integradas con la plataforma VTEX para sincronización diaria de pedidos.",
+                        "Construí Windows Services para automatizar procesos de integración y soporte operativo.",
+                        "Gestioné despliegues y seguimiento del proyecto mediante Azure DevOps."
                     ]
                 },
                 {
                     name: "CAPACITATE",
-                    description: "Sistema E-Learning exclusivo de la empresa.",
+                    description: "Sistema ELearning exclusivo para la empresa.",
                     tasks: [
-                        "Frontend en Angular versión 8.",
-                        "API con .NET CORE.",
-                        "Integración con sistemas de seguridad centralizados.",
-                        "Reportes automáticos en Excel.",
-                        "Manejo de Azure DevOps."
+                        "Desarrollé frontend en Angular 8 para un sistema interno de capacitación empresarial.",
+                        "Implementé servicios backend y APIs REST en .NET Core, integradas con sistemas de seguridad corporativa.",
+                        "Generé reportes automatizados en Excel para seguimiento de usuarios y progreso.",
+                        "Proporcioné soporte y mejoras continuas bajo Azure DevOps."
                     ]
                 },
                 {
                     name: "SST",
-                    description: "Sistema de seguridad y salud en el trabajo y comités.",
+                    description: "Sistema para gestionar la seguridad y salud en el trabajo, se utilizó en gran medida en pandemia para verificar si el personal tiene síntomas del COVID.",
                     tasks: [
-                        "Levantamiento de requerimientos y diseño.",
-                        "Desarrollo en .NET (VS 2019) y MS SQL SERVER.",
-                        "Reportes RDLC.",
-                        "Frontend: HTML, JavaScript, jQuery y Bootstrap."
+                        "Desarrollé un sistema web en .NET utilizado durante la pandemia para control de síntomas COVID y gestión de comités.",
+                        "Implementé módulos de votación interna y reportes operativos con RDLC.",
+                        "Gestioné base de datos en SQL Server y soporte en producción.",
+                        "Desarrollé frontend con HTML, JavaScript, Bootstrap."
                     ]
                 },
                 {
                     name: "GESTCOM",
-                    description: "Gestión de visitas de ejecutivos a puntos de venta.",
+                    description: "Sistema para gestionar las visitas que realizan los ejecutivos a los puntos de ventas.",
                     tasks: [
-                        "Mantenimiento en .NET Windows Forms VB.",
-                        "Soporte en BD MS SQL SERVER.",
-                        "Control de versiones Git."
+                        "Implementé mantenimiento evolutivo en una aplicación interna desarrollada en .NET Windows Forms.",
+                        "Gestioné persistencia y mejoras en base de datos SQL Server.",
+                        "Brindé soporte funcional y correctivo asegurando continuidad del sistema en producción."
                     ]
                 }
             ]
@@ -166,14 +180,13 @@ export const cvData = {
             period: "ENERO 2021 – JUNIO 2021",
             projects: [
                 {
-                    name: "ERP Corporativo",
-                    description: "Sistema a medida para RRHH, Compras y Operaciones.",
+                    name: "ERP",
+                    description: "Sistema ERP personalizado para el manejo de la empresa en áreas como: RRHH, COMPRAS, OPERACIONES.",
                     tasks: [
-                        "C# (.NET Core) y PHP (Laravel, CodeIgniter).",
-                        "Frontend: HTML, CSS, JS, jQuery, Bootstrap y Angular.",
-                        "Optimización de procedimientos almacenados y consultas SQL.",
-                        "Arquitecturas MVC, N-Capas y Microservicios.",
-                        "Integración vía servicios REST."
+                        "Desarrollé un ERP personalizado utilizando C# y .NET Core bajo arquitectura MVC y N Capas.",
+                        "Implementé APIs REST en arquitectura de Microservicios para integración entre módulos.",
+                        "Optimicé procedimientos almacenados, funciones y consultas en base de datos.",
+                        "Construí interfaces frontend con HTML, JavaScript y Bootstrap."
                     ]
                 }
             ]
@@ -185,12 +198,12 @@ export const cvData = {
             projects: [
                 {
                     name: "Transportadora Callao - SAP B1",
-                    description: "Implementación de Facturación Electrónica y Logística.",
+                    description: "Implementación módulos de Facturación Electrónica y logística.",
                     tasks: [
-                        "Manejo de SAP B1 funcional y técnico.",
-                        "Desarrollo de Add-Ons y Windows Services.",
-                        "APIs .xsjs y reportes Crystal Report.",
-                        "Consultas avanzadas en SAP HANA y SQL."
+                        "Participé en la implementación de módulos de Facturación Electrónica y Logística para Transportadora Callao.",
+                        "Desarrollé interfaces y Add-ons (Windows Services) para integración de procesos backend.",
+                        "Implementé APIs en entorno SAP (.xsjs) y optimización de consultas en SAP HANA/SQL.",
+                        "Generé reportes electrónicos y soporte directo al cliente en entornos productivos."
                     ]
                 }
             ]
@@ -202,12 +215,11 @@ export const cvData = {
             projects: [
                 {
                     name: "Banco Santander",
-                    description: "Desarrollo de diversos softwares bancarios.",
+                    description: "Desarrollo de diversos softwares para el cliente BANCO SANTANDER.",
                     tasks: [
-                        "Backend en C# y .VB con SQL Server y MySQL.",
-                        "Frontend con Angular 8, JS, jQuery, HTML y CSS.",
-                        "Arquitectura basada en componentes y servicios.",
-                        "Consumo de APIs REST y documentación técnica."
+                        "Desarrollé servicios y aplicaciones web en C# .NET para sistemas bancarios internos.",
+                        "Diseñé e implementé bases de datos en SQL Server, asegurando integridad y rendimiento.",
+                        "Construí interfaces frontend con JavaScript, HTML y CSS para módulos operativos."
                     ]
                 }
             ]
@@ -219,13 +231,11 @@ export const cvData = {
             projects: [
                 {
                     name: "ERP Interno",
-                    description: "Desarrollo de módulos para control administrativo.",
+                    description: "Desarrollo de ERP para el control interno de toda la empresa(Python/Django).",
                     tasks: [
-                        "Backend con Python y framework Django.",
-                        "Diseño de BD en SQL Server.",
-                        "Frontend con HTML, JS, jQuery y CSS.",
-                        "Automatización de reportes y carga de datos.",
-                        "Manejo de SVN-GIT."
+                        "Desarrollé módulos backend en Python (Django) para un ERP de control interno corporativo.",
+                        "Implementé base de datos en Oracle y automatización de carga de datos.",
+                        "Generé reportes automatizados y mejoras funcionales para usuarios internos."
                     ]
                 }
             ]
@@ -237,11 +247,10 @@ export const cvData = {
             projects: [
                 {
                     name: "Planeamiento Scrum",
-                    description: "Apoyo al gestor de proyectos en metodologías ágiles.",
+                    description: "Practicante Scrum – Gestión Ágil de Proyectos",
                     tasks: [
-                        "Programación de reuniones y monitoreo de sprints.",
-                        "Pruebas funcionales de despliegues.",
-                        "Fomento de la comunicación y documentación técnica."
+                        "Apoyé en la planificación y seguimiento de sprints bajo metodología Scrum.",
+                        "Coordiné reuniones, monitoreo de avance y validación funcional de entregables"
                     ]
                 }
             ]
@@ -253,15 +262,15 @@ export const cvData = {
             projects: [
                 {
                     name: "Módulos de Negocio",
-                    description: "Desarrollo de nuevos módulos para sistemas empresariales.",
+                    description: "Apoyo al desarrollo de módulos empresariales.",
                     tasks: [
-                        "Desarrollo web en .NET C# MVC.",
-                        "Generación de tableros y reportes en Power BI.",
-                        "Soporte de BD en producción y corrección de datos."
+                        "Apoyé en el desarrollo de nuevos módulos empresariales utilizando .NET C# MVC.",
+                        "Realicé soporte y mantenimiento de bases de datos en ambiente de producción, corrigiendo inconsistencias de datos.",
+                        "Generé reportes y tableros de control con Power BI para áreas internas.",
+                        "Elaboré documentación técnica básica para el equipo de desarrollo."
                     ]
                 }
             ]
         }
     ]
-
 };

@@ -13,7 +13,7 @@ export default function HeroSection() {
                 <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-cyan-600/5 blur-[120px] rounded-full" />
             </div>
 
-            <div className="container px-4 mx-auto">
+            <div className="container px-6 md:px-12 mx-auto">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
                     {/* Left Side: Photo with Floating Animation */}
                     <motion.div

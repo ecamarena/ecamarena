@@ -6,7 +6,7 @@ import { cvData } from "@/data/cv-data";
 export default function ExperienceTimeline() {
     return (
         <section className="py-24 bg-dot-pattern">
-            <div className="container px-4 mx-auto">
+            <div className="container px-6 md:px-12 mx-auto">
                 <div className="max-w-2xl mb-20">
                     <motion.div
                         initial={{ opacity: 0, x: -20 }}
